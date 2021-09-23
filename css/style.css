@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+h1 {
+        text-align: center;
+}
+.MikeMathison img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+.MikeMathison figcaption {
+        text-align: center;
+}
+#CenterImage {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border-bottom: 3px solid black;
+        padding-bottom: 20px;
+}
+.CarImagesTable {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+        padding-top: 5px;
+        padding-left: 20px;
+}
+p, li {
+        font-family: "Montserrat", Helvitica, sans-serif;
+}
+figcaption {
+        font-family: "Montserrat", Helvitica, sans-serif;
+        font-weight: bold;
+}
+main {
+        font-size: 1.3rem;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 40px;
+}
+@media (min-width:800px) {
+        main {
+                width: 100%;
+                padding-left: 210px;
+                padding-right: 210px;
+        }       
+}
+@media (max-width:1024px) {
+        footer {
+                display: none;
+        }
+}
+body > nav.navbar, body > header > nav.navbar {
+        --nav-padding-y: 0;
+        padding-top: var(--nav-padding-y);
+        padding-bottom:  var(--nav-padding-y);
+        font-size: 1.2rem;
+        margin-bottom: 20px;      
+}
+.nav-item {
+font-family: "Architects Daughter", Helvetica, sans-serif;
+}
+
+.navbar-brand {
+        background: url(../images/MikeMathison.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 60px 85px;
+        
+}
+
+.navbar-brand > .brand-text {
+        display: invisible;
+        opacity: 0%;
+}
+
+.CarImagesTable img {
+        object-fit: contain;
+        width: auto;
+        height: 210px;
+}
+
+.CarImagesTable figure {
+        width: 100%;
+}
+
+.notch-back-center {
+        transform: translateX(calc((100% - 269px)/4));
+}
+.CarImagesTable {
+        width:80vw;
+}
+
+body {
+        line-height: 1.6;
+}
+
+h1,h2,h3,h4,h5,h6 {
+        margin-bottom: 15px;
+        margin-top: 30px;
+}
+
+
+ol li {
+        padding-left: 10px;
+    }
+
+p, strong {
+        padding-right: 8px;
+}
